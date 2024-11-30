@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Amanita citrina"
+    },
+    {
+      "id": 1,
+      "name": "Amanita hemibapha"
+    },
+    {
+      "id": 2,
+      "name": "Amanita javanica"
+    },
+    {
+      "id": 3,
+      "name": "Amanita pantherina"
+    },
+    {
+      "id": 4,
+      "name": "Amanita princeps"
+    },
+    {
+      "id": 5,
+      "name": "Boletus reticulatus"
+    },
+    {
+      "id": 6,
+      "name": "Coltricia perennis"
+    },
+    {
+      "id": 7,
+      "name": "Gyromitra infula"
+    },
+    {
+      "id": 8,
+      "name": "Hygrophoropsis aurantiaca"
+    },
+    {
+      "id": 9,
+      "name": "Imleria badia"
+    },
+    {
+      "id": 10,
+      "name": "Lactarius turpis"
+    },
+    {
+      "id": 11,
+      "name": "Russula emetica"
+    },
+    {
+      "id": 12,
+      "name": "Suillus grevillei"
+    },
+    {
+      "id": 13,
+      "name": "Suillus luteus"
+    }
+  ],
+  "info": {
+    "year": 2024,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
