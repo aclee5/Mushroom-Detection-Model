@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Amanita citrina', 'Amanita hemibapha', 'Amanita javanica', 'Amanita pantherina', 'Amanita princeps', 'Boletus reticulatus', 'Coltricia perennis', 'Gyromitra infula', 'Hygrophoropsis aurantiaca', 'Imleria badia', 'Lactarius turpis', 'Russula emetica', 'Suillus grevillei', 'Suillus luteus']
+
+roboflow:
+  workspace: mrmushroom100
+  project: mushrooms100
+  version: 16
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mrmushroom100/mushrooms100/dataset/16
