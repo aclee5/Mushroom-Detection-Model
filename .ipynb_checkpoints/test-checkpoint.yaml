@@ -1,0 +1,31 @@
+#For TESTING PURPOSES ONLY validation and test set are switched to evaluate model metrics with TEST SET
+path: C:/Users/alex/Documents/SFU Courses/FALL 2024/IAT 360/Work/Final Project/Mushroom-Detection-Model/mushroom-data
+train: C:/Users/alex/Documents/SFU Courses/FALL 2024/IAT 360/Work/Final Project/Mushroom-Detection-Model/mushroom-data/train
+test: C:/Users/alex/Documents/SFU Courses/FALL 2024/IAT 360/Work/Final Project/Mushroom-Detection-Model/mushroom-data/valid
+val: C:/Users/alex/Documents/SFU Courses/FALL 2024/IAT 360/Work/Final Project/Mushroom-Detection-Model/mushroom-data/test
+
+# Classes
+nc: 14 # replace based on your dataset's number of classes
+
+# Class names
+names:
+  0: Amanita citrina
+  1: Amanita hemibapha
+  2: Amanita javanica
+  3: Amanita pantherina
+  4: Amanita princeps
+  5: Boletus reticulatus
+  6: Coltricia perennis
+  7: Gyromitra infula
+  8: Hygrophoropsis aurantiaca
+  9: Imleria badia
+  10: Lactarius turpis
+  11: Russula emetica
+  12: Suillus grevillei
+  13: Suillus luteus
+
+#data augmentations 
+#color/light augmentations first
+hsv_h: 0.015  # image HSV-Hue augmentation (fraction)
+hsv_s: 0.9  # image HSV-Saturation augmentation (fraction)
+hsv_v: 0.9  # image HSV-Value augmentation (fraction)
